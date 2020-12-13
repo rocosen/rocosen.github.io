@@ -10113,6 +10113,7 @@ h3 {
 .masthead {
   padding-top: calc(6rem + 74px);
   padding-bottom: 6rem;
+  background-image:url('../assets/img/back.jpg') ;
 }
 .masthead .masthead-heading {
   font-size: 2.75rem;
@@ -10237,4 +10238,43 @@ form .row:first-child .floating-label-form-group {
 
 .copyright {
   background-color: #1a252f;
+}
+
+.aixpng {
+  width: 290px;
+  height: auto;
+  FLOAT: right;
+  margin-right: 1.5rem;
+}
+
+.rowpng {
+  width: 380px;
+}
+
+.backer {
+  background-image:url('../assets/img/back3.jpg') ;
+}
+
+.textse{
+  margin-left: 80px !important;
+}
+
+@media (max-width: 1000px) {
+  .rowpng {
+    width: 380px;
+    display: contents;
+  }
+  .aixpng {
+    width: 290px;
+    height: auto;
+    FLOAT: right;
+    margin-right: 0rem;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .textse{
+    margin-left: 0px !important;
+  }
 }
