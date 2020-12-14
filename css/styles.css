@@ -10245,6 +10245,7 @@ form .row:first-child .floating-label-form-group {
   height: auto;
   FLOAT: right;
   margin-right: 1.5rem;
+  image-orientation: from-image;
 }
 
 .rowpng {
