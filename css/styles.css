@@ -10126,14 +10126,13 @@ h3 {
 .masthead .masthead-avatar {
   width: 15rem;
 }
-
 @media (min-width: 992px) {
   .masthead {
     padding-top: calc(16rem + 104px);
     padding-bottom: 6rem;
     background-size: 100%;
     background-repeat: no-repeat;
-    height: 60rem;
+    height: 43rem;
   }
   .masthead .masthead-heading {
     font-size: 4rem;
@@ -10143,6 +10142,25 @@ h3 {
     font-size: 1.5rem;
   }
 }
+@media (min-width: 1200px) {
+  .masthead {
+    height: 45rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .masthead {
+    height: 50rem;
+  }
+}
+
+
+@media (min-width: 1600px) {
+  .masthead {
+    height: 60rem;
+  }
+}
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
